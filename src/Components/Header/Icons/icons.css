@@ -1,0 +1,58 @@
+.icon-video{
+  margin-left: auto;
+  cursor: pointer;
+}
+.icon-video:hover path{
+  opacity: 1;
+  fill: #ff0000;
+}
+.icon-combined:hover path{
+  opacity: 1;
+  fill: #ff0000;
+}
+.icon-news{
+  cursor: pointer;
+}
+.icon-news:hover path{
+  opacity: 1;
+  fill: #ff0000;
+}
+.icon-combined{
+  cursor: pointer;
+  margin: 0 25px;
+}
+.img-user{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.photo-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  color: #ff0000;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+.photo-label svg{
+  margin-right: 10px;
+}
+.photo-label:hover{
+  text-decoration: underline;
+}
+.photo-input + .photo-label {
+  cursor: pointer; /* "hand" cursor */
+}
+.photo-input:focus + .photo-label,
+.photo-input + .photo-label:hover {
+  background-color: red;
+}

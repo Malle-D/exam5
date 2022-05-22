@@ -1,0 +1,46 @@
+.auto-box{
+   width: 430px;
+   margin-top: 85px;
+   height: 87vh;
+   padding: 0px 15px;
+   overflow-y: scroll;
+}
+.auto-titles{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.auto-head{
+   margin: 0px;
+   margin-right: auto;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 45px;
+   
+   color: #19202C;
+   
+}
+.auto-name{
+   display: flex;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #19202C;
+   margin: 0px;
+}
+.auto-name svg{
+   margin-left: 10px;
+}
+.auto-videos a {
+   display: block;
+   text-decoration: none;
+}
+.auto-videos a + a{
+   margin-top: 30px;
+}

@@ -1,0 +1,112 @@
+.site-nav{
+  /* width: 230px; */
+  height: 87vh;
+  margin-top: 85px;
+  padding-right: 5px;
+  overflow-y: scroll;
+}
+.nav-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-sub{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-top: 50px;
+  padding-left:32px;
+}
+.nav-settings{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #C2C2C2;
+  margin-top:80px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  padding-left:32px;
+  border-left: 3px solid transparent;
+}
+.nav-settings svg{
+  margin-right: 10px;
+}
+.nav-settings:hover{
+  color: #ff0000;
+  border-left: 3px solid black;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-settings:hover svg path{
+  fill: #ff0000;
+  opacity: 1;
+}
+.nav-items{
+  align-items: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #898989;
+  text-decoration: none;
+  transition: 0.3s ease;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-left: 3px solid transparent;
+}
+.nav-items:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid black;
+}
+.nav-items a{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #898989;
+}
+.nav-items:hover a{
+  opacity: 1;
+  color: #ff0000;
+}
+.nav-item:nth-child(1){
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nav-item:nth-child(1) a{
+  color: #ff0000;
+}
+.nav-item:nth-child(1) svg path{
+  fill: #ff0000;
+}
+
+
+.light{
+  color: #000000;
+  background-color: #fff;
+}
+.dark{
+  background-color: #000;
+  color: aliceblue;
+}
+.nav-set{
+  width: 235px;
+  border: none;
+  font-size: large;
+  appearance: none;
+}
+.nav-set:focus{
+  background-color: rgb(244, 161, 161);
+}

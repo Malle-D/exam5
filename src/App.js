@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Authen from "./Authen";
+import useToken from "./Hook/useToken";
+import UnAuthen from "./UnAuthen";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App(){
+  
+  const [token] = useToken()
+
+  if (token) {
+    return <Authen />
+  }
+  else{
+    return <UnAuthen />
+  }
+
+  }
 
 export default App;
+
+
+// import Header from "./Components/Header/Header";
+// import "./Assets/main.css"
+// import Nav from "./Components/Nav/Nav";
+// import { Route, Routes } from "react-router-dom";
+// import Home from "./Pages/Home/Home";
+// import Video from "./Pages/Video/Video";
+// import Chanel from "./Pages/Chanel/Chanel";
+
+// function App() {
+//   return (
+//     <>
+//           <Header />
+//           <Routes>
+//             <Route path="/" element={<Home />} />
+//             <Route path="/chanel/:id" element={<Chanel />} />
+//             <Route path="/video/:id" element={<Video />} />
+//           </Routes> 
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+

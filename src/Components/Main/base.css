@@ -1,0 +1,75 @@
+.main-inner{
+   width: 1290px;
+   height: 87vh;
+   flex-grow: 1;
+   margin-top: 85px;
+   margin-bottom: 50px;
+   padding-left: 20px;
+   overflow-y: scroll;
+}
+.name-title{
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+   margin-top: 20px;
+}
+.chanel-img{
+   width: 50px;
+   height: 50px;
+   margin-right: 20px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.videos-box{
+   display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   padding-bottom: 7px;
+}
+.videos-box a + a {
+   margin-left: 40px;
+}
+.videos-box a{
+   text-decoration: none;
+}
+.random-render-box{
+   display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   margin-top: 10px;
+   padding-bottom: 7px;
+}
+
+.random-render-box a + a {
+   margin-left: 40px;
+}
+.random-render-box a{
+   text-decoration: none;
+}
+.recom-text{
+   margin: 0px;
+   margin-left: 15px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #C2C2C2;
+}
+.sub-button{
+   cursor: pointer;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #FFFFFF;
+   background: #FF0000;
+   border-radius: 20px;
+   border: none;
+   padding: 10px 20px;
+   margin-left: auto;
+   margin-right: 30px;
+   text-decoration: none;
+}

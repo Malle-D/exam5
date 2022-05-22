@@ -1,0 +1,153 @@
+.personal-main-box {
+   width: 1280px;
+   margin-top: 85px;
+   padding: 0px 7px 0px 20px;
+   overflow-y: scroll;
+   height: 87vh;
+}
+.personal-main-img {
+   border-radius: 14px;
+   margin-bottom: 30px;
+}
+.personal-box {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.personal-img {
+   margin-right: 12px;
+   width: 70px;
+   height: 70px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.personal-info {
+   margin-right: auto;
+}
+.personal-title {
+   margin: 0px;
+   margin-bottom: 4px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 33px;
+   color: #19202c;
+}
+.personal-desc {
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+   color: #c2c2c2;
+   margin: 0px;
+}
+.personal-box a {
+   cursor: pointer;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #ffffff;
+   background: #ff0000;
+   border-radius: 20px;
+   border: none;
+   padding: 10px 20px;
+   margin-left: 20px;
+   text-decoration: none;
+}
+.personal-box a:hover {
+   color: #fff;
+}
+.sections-list {
+   display: flex;
+   align-items: center;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.sections-item + .sections-item {
+   margin-left: 60px;
+}
+.sections-item a {
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   color: #000000;
+   text-decoration: none;
+}
+.sections-item a:hover {
+   color: #ff0000;
+}
+.sections-item-active a {
+   color: #ff0000;
+   font-weight: 700;
+   border-bottom: 3px solid #ff0000;
+}
+.sections-item a svg {
+   margin-top: 5px;
+}
+.solo-box {
+   display: flex;
+   align-items: center;
+   margin-top: 48px;
+   position: relative;
+   z-index: 1;
+}
+.solo-box::before {
+   content: '19:00';
+   position: absolute;
+   z-index: 2;
+   left: 435px;
+   bottom: 10px;
+   background: rgba(0, 0, 0, 0.3);
+   border-radius: 12px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   color: #ffffff;
+   padding: 3px 9px;
+}
+.solo-img {
+   margin-right: 32px;
+   border-radius: 14px;
+}
+.solo-name {
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 34px;
+   color: #19202c;
+   margin: 0px;
+   margin-bottom: 10px;
+}
+.solo-describe {
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+   margin: 0px;
+   margin-bottom: 30px;
+}
+.solo-views{
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #C2C2C2;
+   margin: 0px;   
+}

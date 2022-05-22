@@ -1,0 +1,6 @@
+.chanels-inside{
+   display: flex;
+}
+.chanels-inside .site-nav{
+   width: 246px;
+}

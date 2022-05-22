@@ -30,6 +30,7 @@
 
 
 .photo-label {
+  width: 120px;
   display: flex;
   flex-direction: column;
   font-size: 15px;
